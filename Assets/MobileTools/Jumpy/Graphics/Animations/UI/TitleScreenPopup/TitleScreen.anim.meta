@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f71752b7a547a7e4d8e7f5b9e477f1e8
+timeCreated: 1548332431
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/Jumpy/Graphics/Animations/UI/TitleScreenPopup/TitleScreen.anim
+  uploadId: 748774

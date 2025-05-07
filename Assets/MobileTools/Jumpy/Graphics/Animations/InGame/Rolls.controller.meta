@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: b608823186fda0c46b8dd7d62a69a746
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/Jumpy/Graphics/Animations/InGame/Rolls.controller
+  uploadId: 748774

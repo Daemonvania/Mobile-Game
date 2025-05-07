@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a17941ab70b68e04b9919486c3fd2aa6
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/GameServices/Scripts/Version.txt
+  uploadId: 748774

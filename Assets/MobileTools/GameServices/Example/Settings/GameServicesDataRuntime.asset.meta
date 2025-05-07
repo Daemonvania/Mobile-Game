@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ad18186c10f1ff44e990ad951ee9098f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/GameServices/Example/Settings/GameServicesDataRuntime.asset
+  uploadId: 748774

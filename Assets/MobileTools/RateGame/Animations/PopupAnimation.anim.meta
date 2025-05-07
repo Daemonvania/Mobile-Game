@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1971350d59fd43446b07857b89223f18
+timeCreated: 1559587466
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/RateGame/Animations/PopupAnimation.anim
+  uploadId: 748774

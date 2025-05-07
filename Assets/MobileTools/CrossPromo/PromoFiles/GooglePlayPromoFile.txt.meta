@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ba7a57876f365fd46a8fbe0aed5ca031
+timeCreated: 1559986908
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/CrossPromo/PromoFiles/GooglePlayPromoFile.txt
+  uploadId: 748774

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f8e0c4147c354534e8aefc08346cde86
+timeCreated: 1559980751
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/CrossPromo/Example/Scenes/LoadAndShowTest.unity
+  uploadId: 748774

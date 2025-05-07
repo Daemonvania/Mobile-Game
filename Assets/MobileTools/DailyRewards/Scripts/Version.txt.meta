@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 52833445d1cc6d240b2393bac34a604d
+timeCreated: 1579006909
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/DailyRewards/Scripts/Version.txt
+  uploadId: 748774

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8fcf258ed584c5940be56dbc6941dacf
+timeCreated: 1580909937
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/Localization/Example/Settings/LocalizationFile.json
+  uploadId: 748774

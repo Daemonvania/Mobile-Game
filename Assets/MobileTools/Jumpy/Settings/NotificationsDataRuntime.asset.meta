@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2dc969ce0b20d474191a25ea8475b7a7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/Jumpy/Settings/NotificationsDataRuntime.asset
+  uploadId: 748774

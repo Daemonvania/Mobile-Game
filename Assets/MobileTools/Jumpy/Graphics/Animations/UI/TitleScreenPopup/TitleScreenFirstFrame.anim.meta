@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 66298da290e200544ae7f2914853017e
+timeCreated: 1548332431
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/Jumpy/Graphics/Animations/UI/TitleScreenPopup/TitleScreenFirstFrame.anim
+  uploadId: 748774

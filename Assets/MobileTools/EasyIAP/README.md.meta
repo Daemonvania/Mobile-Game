@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1792ea6d7c2d92f41bfe6f1a68b4040c
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/EasyIAP/README.md
+  uploadId: 748774

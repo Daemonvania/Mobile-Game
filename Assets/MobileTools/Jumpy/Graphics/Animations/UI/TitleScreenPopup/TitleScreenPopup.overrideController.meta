@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ca2a2fdec39605f46be9419c07e31c9a
+timeCreated: 1548861831
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 22100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/Jumpy/Graphics/Animations/UI/TitleScreenPopup/TitleScreenPopup.overrideController
+  uploadId: 748774

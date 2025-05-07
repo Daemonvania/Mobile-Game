@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f0c274781a9d4e243b888c426772042a
+timeCreated: 1577967898
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/MobileAds/Example/Scenes/MobileAdsExample.unity
+  uploadId: 748774

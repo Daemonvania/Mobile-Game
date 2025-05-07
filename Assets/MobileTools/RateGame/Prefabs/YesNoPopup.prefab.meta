@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d4f278556974ccb43855501f618bb704
+timeCreated: 1549558910
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/RateGame/Prefabs/YesNoPopup.prefab
+  uploadId: 748774

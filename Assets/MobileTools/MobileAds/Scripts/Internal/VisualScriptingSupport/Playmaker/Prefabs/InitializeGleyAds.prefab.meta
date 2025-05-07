@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dd54ce1416ccf9d4f82d224477c81768
+timeCreated: 1544887966
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/MobileAds/Scripts/Internal/VisualScriptingSupport/Playmaker/Prefabs/InitializeGleyAds.prefab
+  uploadId: 748774

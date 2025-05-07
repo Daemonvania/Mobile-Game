@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 75774d17b62319e4581bef48f8671a32
+timeCreated: 1522689361
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/AllPlatformsSave/Example/Scenes/AllPlatformsSaveExample.unity
+  uploadId: 748774

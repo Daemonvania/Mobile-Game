@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b9d8d2a7d706e674db423780732eb115
+timeCreated: 1560021320
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/CrossPromo/Animations/CrossPromoPrefab.controller
+  uploadId: 748774

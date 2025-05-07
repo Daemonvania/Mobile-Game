@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a3fcdb3074c2c95439f6c62ac735bbb4
+timeCreated: 1549029989
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/Jumpy/Graphics/Animations/UI/LevelCompletePopup/LevelCompleteFirstFrame.anim
+  uploadId: 748774

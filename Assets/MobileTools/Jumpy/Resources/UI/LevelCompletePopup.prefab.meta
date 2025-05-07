@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c6577755c31b7704695816a12b8d42c0
+timeCreated: 1541621027
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/Jumpy/Resources/UI/LevelCompletePopup.prefab
+  uploadId: 748774

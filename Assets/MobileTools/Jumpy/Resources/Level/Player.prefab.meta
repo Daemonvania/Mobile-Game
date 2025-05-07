@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b501391e39efbc24d9b4ef85b1b445f6
+timeCreated: 1548778642
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/Jumpy/Resources/Level/Player.prefab
+  uploadId: 748774

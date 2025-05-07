@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f0fb663a072a5c345bb1a5426202ac18
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/DailyRewards/Prefabs/CalendarPopupCanvas.prefab
+  uploadId: 748774

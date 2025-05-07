@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f3409a4a3881cd3489db7ed4335e857a
+timeCreated: 1560020423
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/CrossPromo/Prefabs/EventSystem.prefab
+  uploadId: 748774

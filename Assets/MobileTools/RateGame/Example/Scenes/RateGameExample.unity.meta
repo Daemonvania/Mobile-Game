@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 11f097ab8077c0e40a2ba3eeec1fa69d
+timeCreated: 1549553270
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/RateGame/Example/Scenes/RateGameExample.unity
+  uploadId: 748774

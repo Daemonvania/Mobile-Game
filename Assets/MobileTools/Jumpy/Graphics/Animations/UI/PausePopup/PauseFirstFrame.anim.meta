@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8a6f1c53361990b489e134e5d3035cc7
+timeCreated: 1549030919
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/Jumpy/Graphics/Animations/UI/PausePopup/PauseFirstFrame.anim
+  uploadId: 748774

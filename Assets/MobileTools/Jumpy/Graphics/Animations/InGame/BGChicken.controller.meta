@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e4606878fef01484baaf31a82e6df2b9
+timeCreated: 1548700579
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/Jumpy/Graphics/Animations/InGame/BGChicken.controller
+  uploadId: 748774

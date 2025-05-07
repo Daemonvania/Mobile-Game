@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c9501b782c0a1854dac8611e1bb6faef
+timeCreated: 1548846727
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/Jumpy/Resources/Level/Corn.prefab
+  uploadId: 748774

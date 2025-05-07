@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 694b7c6d2ae54014796230b1bea60baa
+timeCreated: 1560272314
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/CrossPromo/PromoFiles/AppStorePromoFile.txt
+  uploadId: 748774

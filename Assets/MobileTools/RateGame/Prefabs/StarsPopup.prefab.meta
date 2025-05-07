@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 37ebed2cdd4cc8b4aa99ac649877d981
+timeCreated: 1559585218
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/RateGame/Prefabs/StarsPopup.prefab
+  uploadId: 748774

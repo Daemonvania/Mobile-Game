@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1a07c5d83523cfe48b485e3e2a2a1467
+timeCreated: 1580809461
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/DailyRewards/Documentation/Gley-DailyRewards-Documentation.pdf
+  uploadId: 748774

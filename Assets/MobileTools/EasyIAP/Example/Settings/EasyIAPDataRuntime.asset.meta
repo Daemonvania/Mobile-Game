@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f7071ea75d661e4478c2f0c78330e237
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/EasyIAP/Example/Settings/EasyIAPDataRuntime.asset
+  uploadId: 748774

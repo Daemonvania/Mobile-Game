@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b4c3a1b7b6446d14c894d5a536ac9628
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/MobileAds/Prefabs/ConsentPopup.prefab
+  uploadId: 748774

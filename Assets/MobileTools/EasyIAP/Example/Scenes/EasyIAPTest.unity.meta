@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a8d4152eb7b5c774aac7b8804fa83573
+timeCreated: 1525803258
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/EasyIAP/Example/Scenes/EasyIAPTest.unity
+  uploadId: 748774

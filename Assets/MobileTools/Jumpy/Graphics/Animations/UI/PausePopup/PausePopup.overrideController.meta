@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b7748453975f27c48b2ae044779b1dfd
+timeCreated: 1548861776
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 22100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266719
+  packageName: Mobile Tools v2.0 + Example Game
+  packageVersion: 2.0.21
+  assetPath: Assets/Gley/Jumpy/Graphics/Animations/UI/PausePopup/PausePopup.overrideController
+  uploadId: 748774
