@@ -20,8 +20,14 @@ public class ScoreManager : MonoBehaviour
         Hand.OnBrickMiss -= OnMiss;
     }
 
+    private void Start()
+    {
+        scoreText.text = "Score: " + score;
+    }
+
     private void OnHit()
     {
+        Debug.Log(Hand.IsStrong());
         if (Hand.IsStrong())
         {
             score += 2 + consecutiveHits;

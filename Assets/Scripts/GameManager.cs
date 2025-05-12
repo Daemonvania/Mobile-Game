@@ -30,16 +30,14 @@ public class GameManager : MonoBehaviour
     {
         
     }
-
+    //todo possibility of moving a lot of general functionality here, right now its all done in individual objects listening on the observer
     private void OnHit()
     {
-        hand.Reset();
-        brick.MoveHitPoint();
+        StartCoroutine(hand.Reset(0.5f));
     }
     
     private void OnMiss()
     {
-        hand.Reset();
-        brick.MoveHitPoint();
+        StartCoroutine(hand.Reset(0.1f));
     }
 }

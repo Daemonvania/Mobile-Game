@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using DG.Tweening;
 using UnityEngine;
 using Lean.Touch;
 public class Hand : MonoBehaviour
@@ -33,10 +34,13 @@ public class Hand : MonoBehaviour
   
     
     bool isDropping = false;
-    private float hoverTime;
+    bool canDrop = true;
+    bool isCheckingHit = false;
+    
+    // private float hoverTime;
     private static bool isStrong = false;
     
-    private Coroutine resetCoroutine;
+    // private Coroutine resetCoroutine;
     private Coroutine strongCoroutine;
 
     private void Start()
@@ -56,10 +60,12 @@ public class Hand : MonoBehaviour
     
     private void OnDisable()
     {
-        LeanTouch.OnFingerTap -= OnFingerDown;
+        LeanTouch.OnFingerDown -= OnFingerDown;
+        LeanTouch.OnFingerUp -= OnFingerUp;
     }
 
     //todo add InputManager so touch things arent here? 
+    //todo state machine might be better | definitely is this stuff is terriblee
     
     // Update is called once per frame
     void Update()
@@ -69,11 +75,14 @@ public class Hand : MonoBehaviour
         if (isDropping)
         {
             HandleDropping();
-            CheckHit();
+            if (isCheckingHit)
+            {
+                CheckHit();
+            }
         }
         else
         {
-            HandleHovering();
+            // HandleHovering();
         }
     }
 
@@ -91,45 +100,57 @@ public class Hand : MonoBehaviour
         hitPointPosY = new Vector3(transform.position.x, hitPoint.transform.position.y, transform.position.z);
         if (Vector3.Distance(gameObject.transform.position, hitPointPosY) < 0.1)
         {
-            Debug.Log("Height!");
             Vector3 hitPointPosX;
             hitPointPosX = new Vector3(hitPoint.transform.position.x, transform.position.y, transform.position.z);
+                
+                isCheckingHit = false;
             if (Vector3.Distance(transform.position, hitPointPosX) < hitLeewayDist)
             {
-                Debug.Log("Hit!");
-                StopCoroutine(resetCoroutine);
-                resetCoroutine = null;
+                // StopCoroutine(resetCoroutine);
+                // resetCoroutine = null;
                 OnBrickHit?.Invoke();
+                isStrong = false;
+            }
+            else
+            {
+                isDropping = false;
+                OnBrickMiss?.Invoke();
+                StartCoroutine(Reset(0));
             }
         }
     }
 
-    void HandleHovering()
-    {
-        hoverTime += Time.deltaTime * hoverSpeed;
-
-        // Calculate the X position using a sine wave
-        float xPosition = Mathf.Lerp(minX, maxX, (Mathf.Sin(hoverTime) + 1f) / 2f);
-
-        // Update the position of the Hand object
-        transform.position = new Vector3(xPosition, transform.position.y, transform.position.z);
-    }
+    // void HandleHovering()
+    // {
+    //     hoverTime += Time.deltaTime * hoverSpeed;
+    //
+    //     // Calculate the X position using a sine wave
+    //     float xPosition = Mathf.Lerp(minX, maxX, (Mathf.Sin(hoverTime) + 1f) / 2f);
+    //
+    //     // Update the position of the Hand object
+    //     transform.position = new Vector3(xPosition, transform.position.y, transform.position.z);
+    // }
     
     private void OnFingerDown(LeanFinger finger)
     {
-        if (!isDropping)
+        if (!GameManager.IsPlaying) return;
+        if (canDrop)
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y + 1, transform.position.z);
+            transform.DOMove(new Vector3(transform.position.x, transform.position.y + 0.2f, transform.position.z),
+                0.2f);
             strongCoroutine = StartCoroutine(WaitForStrong());
         }
     }
     private void OnFingerUp(LeanFinger finger)
     {
-        if (!isDropping)
+        if (!GameManager.IsPlaying) return;
+        if (canDrop)
         {
             isDropping = true;
+            isCheckingHit = true;
+            canDrop = false;
             StopCoroutine(strongCoroutine);
-            resetCoroutine = StartCoroutine(WaitToReset());
+            // resetCoroutine = StartCoroutine(WaitToReset());
         }
     }
 
@@ -137,7 +158,7 @@ public class Hand : MonoBehaviour
     {
         yield return new WaitForSeconds(timeToReset);
         OnBrickMiss?.Invoke();
-        Reset();
+        StartCoroutine(Reset(0));
     }
 
     private IEnumerator WaitForStrong()
@@ -150,11 +171,15 @@ public class Hand : MonoBehaviour
         renderer.material = baseMaterial;
     }
     
-    public void Reset()
+    public IEnumerator Reset(float delay)
     {
+        yield return new WaitForSeconds(delay);
         isDropping = false;
-        transform.position = startPos;
-        hoverTime = 0;
+        transform.DOMove(startPos, 0.5f).OnComplete(() =>
+        {
+            canDrop = true;
+            // hoverTime = 0;
+        });
         renderer.material = baseMaterial;
     }
 
